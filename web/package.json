@@ -13,11 +13,20 @@
     ]
   },
   "dependencies": {
+    "@redwoodjs/auth": "^0.21.0",
     "@redwoodjs/forms": "^0.21.0",
     "@redwoodjs/router": "^0.21.0",
     "@redwoodjs/web": "^0.21.0",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "@tailwindcss/ui": "^0.6.0",
+    "@tailwindui/react": "^0.1.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "9.8.6",
+    "postcss-loader": "4.0.2",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+
   }
 }
