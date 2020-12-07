@@ -1,5 +1,6 @@
 
 import logo from 'src/components/Navbar/shiptrustlogo.png'
+import {Link,routes} from '@redwoodjs/router'
 
 
 
@@ -56,7 +57,7 @@ const Tailwindcard = () => {
           <div class="pt-6 text-base leading-6 font-bold sm:text-lg sm:leading-7">
             <p>Want to try out ShipTrust?</p>
             <p>
-              <a href="https://tailwindcss.com/docs" class="text-cyan-600 hover:text-cyan-700"> see the roadmap &rarr; </a>
+              <a href="https://tailwindcss.com/docs" class="text-cyan-600 hover:text-cyan-700"><Link to={routes.roadmap()}>see the roadmap &rarr; </Link> </a>
             </p>
           </div>
         </div>

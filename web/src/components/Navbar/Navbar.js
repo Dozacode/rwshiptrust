@@ -40,7 +40,7 @@ export default function Navbar({ fixed }) {
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
               <li className="nav-item">
                 <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+                  className="px-4 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
                   href="Shiptrust"
                 >
                   <i className="fab fa-facebook-square text-lg leading-lg text-white opacity-75"></i><span className="ml-2"> <Link to={routes.bio()}>Bio</Link></span>
@@ -48,7 +48,7 @@ export default function Navbar({ fixed }) {
               </li>
               <li className="nav-item">
                 <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+                  className="px-4 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
                   href="Shiptrust"
                 >
                   <i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i><span className="ml-2"><Link to={routes.roadmap()}>Roadmap</Link></span>
@@ -56,15 +56,15 @@ export default function Navbar({ fixed }) {
               </li>
               <li className="nav-item">
                 <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+                  className="px-4 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
                   href="Shiptrust"
                 >
-                  <i className="fab fa-facebook-square text-lg leading-lg text-white opacity-75"></i><span className="ml-2"> <Link to={routes.contact()}>Contacts</Link></span>
+                  <i className="fab fa-facebook-square text-lg leading-lg text-white opacity-75"></i><span className="ml-2"> <Link to={routes.contact()}>Contact</Link></span>
                 </a>
               </li>
               <li className="nav-item">
                 <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+                  className="px-4 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
                   href="Shiptrust"
                 >
                   <i className="fab fa-pinterest text-lg leading-lg text-white opacity-75"></i><span className="ml-2"><Link to={routes.settings()}>Signin</Link></span>
