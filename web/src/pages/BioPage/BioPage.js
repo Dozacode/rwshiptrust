@@ -1,18 +1,18 @@
 import { Link, routes } from '@redwoodjs/router'
-import SidebarLayout from 'src/layouts/SidebarLayout'
-import logo from 'src/components/Navbar/shiptrustlogo.png'
 import Tailwindcard from 'src/components/Tailwindcard'
+import LandingLayout from 'src/layouts/LandingLayout'
+import Doccards from 'src/components/Doccards'
 
 const BioPage = () => {
   return (
-
-<Tailwindcard></Tailwindcard>
-
-
+<>
+<LandingLayout/>
 
 
 
+<Doccards/>
 
+</>
   )
 }
 

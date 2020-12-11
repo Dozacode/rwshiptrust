@@ -1,7 +1,7 @@
 
 import logo from 'src/components/Navbar/shiptrustlogo.png'
 import {Link,routes} from '@redwoodjs/router'
-
+import wood from 'src/components/Doccards/wood.jpg'
 
 
 
@@ -9,7 +9,7 @@ const Tailwindcard = () => {
   return (
     <div>
 
- <div class="min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-1">
+ <div class="min-h-screen py-6 flex bg-fixed grey-800 flex-col justify-center sm:py-1">
   <div class="relative py-0 sm:max-w-xl sm:mx-auto">
     <div class="absolute inset-0 bg-gradient-to-r from-cyan-400 to-light-blue-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
     <div class="relative px-4 py-1 bg-white shadow-lg sm:rounded-3xl sm:p-20">

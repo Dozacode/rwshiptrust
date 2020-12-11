@@ -2,10 +2,11 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
-  },
-  variants: {
-    extend: {},
-  },
-  plugins: [],
+    extend: {
+      backgroundImage: theme => ({
+       'wood': "web/src/components/Doccards/wood.jpg",
+
+      })
+    }
+  }
 }
