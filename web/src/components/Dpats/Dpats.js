@@ -65,7 +65,6 @@ const DpatsList = ({ dpats }) => {
             <th>Owner</th>
             <th>Vesselname</th>
             <th>Title</th>
-            <th>Date</th>
             <th>Author</th>
             <th>Findings</th>
             <th>Any a findings</th>
@@ -87,7 +86,6 @@ const DpatsList = ({ dpats }) => {
               <td>{truncate(dpat.Owner)}</td>
               <td>{truncate(dpat.vesselname)}</td>
               <td>{truncate(dpat.title)}</td>
-              <td>{truncate(dpat.date)}</td>
               <td>{truncate(dpat.author)}</td>
               <td>{checkboxInputTag(dpat.findings)}</td>
               <td>{checkboxInputTag(dpat.anyAFindings)}</td>

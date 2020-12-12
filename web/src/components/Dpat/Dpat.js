@@ -73,10 +73,6 @@ const Dpat = ({ dpat }) => {
               <td>{dpat.title}</td>
             </tr>
             <tr>
-              <th>Date</th>
-              <td>{dpat.date}</td>
-            </tr>
-            <tr>
               <th>Author</th>
               <td>{dpat.author}</td>
             </tr>

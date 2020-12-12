@@ -73,10 +73,6 @@ const Fmea = ({ fmea }) => {
               <td>{fmea.title}</td>
             </tr>
             <tr>
-              <th>Date</th>
-              <td>{timeTag(fmea.date)}</td>
-            </tr>
-            <tr>
               <th>Author</th>
               <td>{fmea.author}</td>
             </tr>

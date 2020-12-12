@@ -8,7 +8,7 @@ const FmeasLayout = (props) => {
       <header className="rw-header">
         <h1 className="rw-heading rw-heading-primary">
           <Link to={routes.fmeas()} className="rw-link">
-            FMEA's
+            Fmeas
           </Link>
         </h1>
         <Link to={routes.newFmea()} className="rw-button rw-button-green">

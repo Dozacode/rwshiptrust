@@ -4,7 +4,6 @@ export const schema = gql`
     Owner: String!
     vesselname: String!
     title: String!
-    date: DateTime!
     author: String!
     classed: Boolean!
     classsociety: String
@@ -20,7 +19,6 @@ export const schema = gql`
     Owner: String!
     vesselname: String!
     title: String!
-    date: DateTime!
     author: String!
     classed: Boolean!
     classsociety: String
@@ -31,7 +29,6 @@ export const schema = gql`
     Owner: String
     vesselname: String
     title: String
-    date: DateTime
     author: String
     classed: Boolean
     classsociety: String

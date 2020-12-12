@@ -7,7 +7,6 @@ export const QUERY = gql`
       Owner
       vesselname
       title
-      date
       author
       classed
       classsociety

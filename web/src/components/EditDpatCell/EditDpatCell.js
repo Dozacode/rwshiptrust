@@ -9,7 +9,6 @@ export const QUERY = gql`
       Owner
       vesselname
       title
-      date
       author
       findings
       anyAFindings
@@ -31,7 +30,6 @@ const UPDATE_DPAT_MUTATION = gql`
       Owner
       vesselname
       title
-      date
       author
       findings
       anyAFindings

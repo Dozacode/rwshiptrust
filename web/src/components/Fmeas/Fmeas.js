@@ -65,7 +65,6 @@ const FmeasList = ({ fmeas }) => {
             <th>Owner</th>
             <th>Vesselname</th>
             <th>Title</th>
-            <th>Date</th>
             <th>Author</th>
             <th>Classed</th>
             <th>Classsociety</th>
@@ -80,7 +79,6 @@ const FmeasList = ({ fmeas }) => {
               <td>{truncate(fmea.Owner)}</td>
               <td>{truncate(fmea.vesselname)}</td>
               <td>{truncate(fmea.title)}</td>
-              <td>{timeTag(fmea.date)}</td>
               <td>{truncate(fmea.author)}</td>
               <td>{checkboxInputTag(fmea.classed)}</td>
               <td>{truncate(fmea.classsociety)}</td>

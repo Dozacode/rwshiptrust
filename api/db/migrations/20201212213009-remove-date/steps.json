@@ -12,7 +12,7 @@
         "source": "DS"
       },
       "argument": "provider",
-      "value": "\"sqlite\""
+      "value": "[\"sqlite\", \"postgresql\"]"
     },
     {
       "tag": "CreateArgument",
@@ -166,13 +166,6 @@
     {
       "tag": "CreateField",
       "model": "Fmea",
-      "field": "date",
-      "type": "DateTime",
-      "arity": "Required"
-    },
-    {
-      "tag": "CreateField",
-      "model": "Fmea",
       "field": "author",
       "type": "String",
       "arity": "Required"
@@ -274,13 +267,6 @@
       "tag": "CreateField",
       "model": "Dpat",
       "field": "title",
-      "type": "String",
-      "arity": "Required"
-    },
-    {
-      "tag": "CreateField",
-      "model": "Dpat",
-      "field": "date",
       "type": "String",
       "arity": "Required"
     },

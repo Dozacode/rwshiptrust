@@ -4,7 +4,6 @@ export const schema = gql`
     Owner: String!
     vesselname: String!
     title: String!
-    date: String!
     author: String!
     findings: Boolean!
     anyAFindings: Boolean!
@@ -27,7 +26,6 @@ export const schema = gql`
     Owner: String!
     vesselname: String!
     title: String!
-    date: String!
     author: String!
     findings: Boolean!
     anyAFindings: Boolean!
@@ -45,7 +43,6 @@ export const schema = gql`
     Owner: String
     vesselname: String
     title: String
-    date: String
     author: String
     findings: Boolean
     anyAFindings: Boolean

@@ -1,13 +1,13 @@
 datasource DS {
   // optionally set multiple providers
   // example: provider = ["sqlite", "postgresql"]
-  provider = "sqlite"
+  provider = ["sqlite", "postgresql"]
   url = "***"
 }
 
 generator client {
   provider      = "prisma-client-js"
-  binaryTargets = "native"
+  binaryTargets = ["native", "rhel-openssl-1.0.x"]
 }
 
 ///filestack file upload
@@ -19,11 +19,10 @@ model Image {
 
 // Document Models
 model Fmea {
-  id           Int      @id @default(autoincrement())
+  id           Int     @id @default(autoincrement())
   Owner        String
-  vesselname   String   @unique
+  vesselname   String  @unique
   title        String
-  date         DateTime
   author       String
   classed      Boolean
   classsociety String?
@@ -37,7 +36,6 @@ model Dpat {
   Owner        String
   vesselname   String  @unique
   title        String
-  date         String
   author       String
   findings     Boolean
   anyAFindings Boolean

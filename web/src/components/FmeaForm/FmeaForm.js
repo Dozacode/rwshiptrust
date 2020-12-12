@@ -72,22 +72,6 @@ const FmeaForm = (props) => {
         <FieldError name="title" className="rw-field-error" />
 
         <Label
-          name="date"
-          className="rw-label"
-          errorClassName="rw-label rw-label-error"
-        >
-          Date
-        </Label>
-        <TextField
-          name="date"
-          defaultValue={props.fmea?.date}
-          className="rw-input"
-          errorClassName="rw-input rw-input-error"
-          validation={{ required: true }}
-        />
-        <FieldError name="date" className="rw-field-error" />
-
-        <Label
           name="author"
           className="rw-label"
           errorClassName="rw-label rw-label-error"

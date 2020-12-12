@@ -9,7 +9,6 @@ export const QUERY = gql`
       Owner
       vesselname
       title
-      date
       author
       findings
       anyAFindings
