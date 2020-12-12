@@ -10,9 +10,14 @@ generator client {
   binaryTargets = "native"
 }
 
-// Define your own datamodels here and run `yarn redwood db save` to create
-// migrations for them.
-// TODO: Please remove the following example:
+///filestack file upload
+model Image {
+  id    Int    @id @default(autoincrement())
+  title String
+  url   String
+}
+
+// Document Models
 model Fmea {
   id           Int      @id @default(autoincrement())
   Owner        String

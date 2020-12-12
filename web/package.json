@@ -20,7 +20,12 @@
     "@tailwindcss/forms": "^0.2.1",
     "@tailwindcss/ui": "^0.6.0",
     "@tailwindui/react": "^0.1.1",
+    "date-fns": "^2.16.1",
+    "error-overlay-webpack-plugin": "^0.4.1",
     "filestack-react": "^3.2.1",
+    "html-truncate": "^1.2.2",
+    "markdown-it": "^10.0.0",
+    "netlify-identity-widget": "^1.6.0",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
