@@ -2,7 +2,7 @@ datasource DS {
   // optionally set multiple providers
   // example: provider = ["sqlite", "postgresql"]
   provider = ["sqlite", "postgresql"]
-  url = "***"
+  url      = env("DATABASE_URL")
 }
 
 generator client {
